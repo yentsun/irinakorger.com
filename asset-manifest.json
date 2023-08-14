@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/irinakorger.com/static/css/main.073c9b0a.css",
-    "main.js": "/irinakorger.com/static/js/main.d9dde9f5.js",
+    "main.css": "/irinakorger.com/static/css/main.ef8ff6fd.css",
+    "main.js": "/irinakorger.com/static/js/main.ae7961a2.js",
     "static/js/787.30db6a24.chunk.js": "/irinakorger.com/static/js/787.30db6a24.chunk.js",
-    "static/media/logo.svg": "/irinakorger.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo-clean.svg": "/irinakorger.com/static/media/logo-clean.17a18af3e7ee9fa5ee5c75773b5dd57a.svg",
     "index.html": "/irinakorger.com/index.html",
-    "main.073c9b0a.css.map": "/irinakorger.com/static/css/main.073c9b0a.css.map",
-    "main.d9dde9f5.js.map": "/irinakorger.com/static/js/main.d9dde9f5.js.map",
+    "main.ef8ff6fd.css.map": "/irinakorger.com/static/css/main.ef8ff6fd.css.map",
+    "main.ae7961a2.js.map": "/irinakorger.com/static/js/main.ae7961a2.js.map",
     "787.30db6a24.chunk.js.map": "/irinakorger.com/static/js/787.30db6a24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d9dde9f5.js"
+    "static/css/main.ef8ff6fd.css",
+    "static/js/main.ae7961a2.js"
   ]
 }
