@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://irinakorger.com/static/css/main.ef8ff6fd.css",
-    "main.js": "https://irinakorger.com/static/js/main.2face59d.js",
+    "main.js": "https://irinakorger.com/static/js/main.1bf43fd0.js",
     "static/js/787.30db6a24.chunk.js": "https://irinakorger.com/static/js/787.30db6a24.chunk.js",
     "static/media/logo-clean.svg": "https://irinakorger.com/static/media/logo-clean.17a18af3e7ee9fa5ee5c75773b5dd57a.svg",
     "index.html": "https://irinakorger.com/index.html",
     "main.ef8ff6fd.css.map": "https://irinakorger.com/static/css/main.ef8ff6fd.css.map",
-    "main.2face59d.js.map": "https://irinakorger.com/static/js/main.2face59d.js.map",
+    "main.1bf43fd0.js.map": "https://irinakorger.com/static/js/main.1bf43fd0.js.map",
     "787.30db6a24.chunk.js.map": "https://irinakorger.com/static/js/787.30db6a24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8ff6fd.css",
-    "static/js/main.2face59d.js"
+    "static/js/main.1bf43fd0.js"
   ]
 }
