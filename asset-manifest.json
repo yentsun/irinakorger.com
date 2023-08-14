@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef8ff6fd.css",
-    "main.js": "/static/js/main.ca53e488.js",
-    "static/js/787.30db6a24.chunk.js": "/static/js/787.30db6a24.chunk.js",
-    "static/media/logo-clean.svg": "/static/media/logo-clean.17a18af3e7ee9fa5ee5c75773b5dd57a.svg",
-    "index.html": "/index.html",
-    "main.ef8ff6fd.css.map": "/static/css/main.ef8ff6fd.css.map",
-    "main.ca53e488.js.map": "/static/js/main.ca53e488.js.map",
-    "787.30db6a24.chunk.js.map": "/static/js/787.30db6a24.chunk.js.map"
+    "main.css": "/irinakorger.com/static/css/main.ef8ff6fd.css",
+    "main.js": "/irinakorger.com/static/js/main.ae7961a2.js",
+    "static/js/787.30db6a24.chunk.js": "/irinakorger.com/static/js/787.30db6a24.chunk.js",
+    "static/media/logo-clean.svg": "/irinakorger.com/static/media/logo-clean.17a18af3e7ee9fa5ee5c75773b5dd57a.svg",
+    "index.html": "/irinakorger.com/index.html",
+    "main.ef8ff6fd.css.map": "/irinakorger.com/static/css/main.ef8ff6fd.css.map",
+    "main.ae7961a2.js.map": "/irinakorger.com/static/js/main.ae7961a2.js.map",
+    "787.30db6a24.chunk.js.map": "/irinakorger.com/static/js/787.30db6a24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8ff6fd.css",
-    "static/js/main.ca53e488.js"
+    "static/js/main.ae7961a2.js"
   ]
 }
