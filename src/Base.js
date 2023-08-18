@@ -1,6 +1,3 @@
-import logo from './logo-clean.svg';
-
-
 function Base() {
 
 
