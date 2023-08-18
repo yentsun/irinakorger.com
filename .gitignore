@@ -1,5 +1,6 @@
-/node_modules
-/.next/
-/out/
-/build
-.vercel
+__MACOSX/
+.idea/
+node_modules/
+.next/
+out/
+build/
