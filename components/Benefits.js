@@ -1,4 +1,4 @@
-import Benefit from '@/components/Benefit'
+import Benefit from './Benefit'
 
 const DATA = [
   {

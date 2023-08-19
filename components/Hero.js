@@ -1,6 +1,6 @@
-import PrimaryButton from '@/components/PrimaryButton'
-import SecondaryButton from '@/components/SecondaryButton'
 import { motion } from 'framer-motion'
+import PrimaryButton from './PrimaryButton'
+import SecondaryButton from './SecondaryButton'
 
 function Hero() {
 

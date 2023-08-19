@@ -1,6 +1,6 @@
-import { classNames } from '@/utils/helpers'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { classNames } from '../utils/helpers'
 
 function BenefitImage({ image, reversed, altTag }) {
   const initialStyle = reversed ? { opacity: 0, translateX: 60 } : { opacity: 0, translateX: -60 }

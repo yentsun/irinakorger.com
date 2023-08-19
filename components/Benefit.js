@@ -1,6 +1,6 @@
-import BenefitImage from '@/components//BenefitImage'
-import BenefitDescription from '@/components//BenefitDescription'
-import { classNames } from '@/utils/helpers'
+import BenefitImage from './BenefitImage'
+import BenefitDescription from './BenefitDescription'
+import { classNames } from '../utils/helpers'
 
 function Benefit({ header, description, image, imageAltTag, bullets, reversed }) {
 

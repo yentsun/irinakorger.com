@@ -5,14 +5,12 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
 
-  return (
-    <Layout>
-      <SEO 
-        title={process.env.siteTitle}
-      />
-      <Component {...pageProps} />
-    </Layout>
-  )
+    return (
+        <Layout>
+            <SEO title={ process.env.siteTitle } />
+            <Component {...pageProps} />
+        </Layout>
+    )
 }
 
 export default MyApp

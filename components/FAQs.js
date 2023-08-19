@@ -1,4 +1,5 @@
-import Accordion from '@/components/Accordion'
+import Accordion from '../components/Accordion';
+
 
 const DATA = [
   {
@@ -19,19 +20,17 @@ const DATA = [
   },
 ]
 
-function FAQs() {
+export default function FAQs() {
 
   return (
-    <div className="w-full px-4 py-12">
-      {DATA.map(item => (
-        <Accordion
-          key={item.question}
-          question={item.question}
-          answer={item.answer}
-        />
-      ))}
-    </div>
+      <div className="w-full px-4 py-12">
+        { DATA.map(item => (
+            <Accordion
+                key={item.question}
+                question={item.question}
+                answer={item.answer}
+            />
+        ))}
+      </div>
   )
 }
-
-export default FAQs

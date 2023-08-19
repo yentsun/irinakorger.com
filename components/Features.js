@@ -1,7 +1,8 @@
-import { StarIcon } from '@heroicons/react/solid'
-import SectionTitle from '@/components/SectionTitle'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { StarIcon } from '@heroicons/react/solid'
+import SectionTitle from './SectionTitle'
+
 
 const DATA = [
   'Feature # 1',

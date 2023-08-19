@@ -1,5 +1,5 @@
-import SectionTitle from '@/components/SectionTitle'
-import Subscribe from '@/components/Subscribe'
+import SectionTitle from './SectionTitle'
+import Subscribe from './Subscribe'
 
 function FinalCTA() {
   return (
