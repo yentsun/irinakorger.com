@@ -1,6 +1,7 @@
+import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import FooterLinkColumn from './FooterLinkColumn'
 import SocialIcon from './SocialIcon'
-import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 
 const FIRST_COL = [
   {

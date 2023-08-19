@@ -1,5 +1,5 @@
 import { CheckIcon } from '@heroicons/react/solid'
-import PrimaryButton from '@/components/PrimaryButton'
+import PrimaryButton from './PrimaryButton'
 
 function PricingPanel({ plan, price, description, features, cta }) {
 

@@ -9,6 +9,7 @@ import FinalCTA from '../components/FinalCTA';
 export default function IndexPage() {
 
     return <div>
+
         {/* hero section */}
         <Hero />
 

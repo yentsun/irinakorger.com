@@ -1,4 +1,5 @@
-import PageTitle from '@/components/PageTitle'
+import PageTitle from './PageTitle';
+
 
 function LoginHeader({ toggleIsSigningIn, header, question, cta }) {
   return (

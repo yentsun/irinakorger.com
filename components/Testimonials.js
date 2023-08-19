@@ -1,5 +1,5 @@
-import SectionTitle from '@/components/SectionTitle'
-import Testimonial from '@/components/Testimonial'
+import SectionTitle from './SectionTitle'
+import Testimonial from './Testimonial'
 
 const DATA = [
   {

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+
 function FooterLinkColumn({ header, items }) {
   return (
     <div className="w-full my-8 lg:my-0 lg:w-4/12 px-4 ml-auto">

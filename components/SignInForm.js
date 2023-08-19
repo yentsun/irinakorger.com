@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ResetPassword from '@/components/ResetPassword'
+import ResetPassword from './ResetPassword'
 
 function SignInForm() {
   const [email, setEmail] = useState('')

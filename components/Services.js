@@ -1,4 +1,4 @@
-import Service from '@/components/Service'
+import Service from './Service'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
