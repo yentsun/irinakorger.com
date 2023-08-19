@@ -1,9 +1,10 @@
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import '../styles/globals.css';
+import '@fontsource/roboto/cyrillic-400.css';
 
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
 
     return (
         <Layout>
@@ -13,4 +14,4 @@ function MyApp({ Component, pageProps }) {
     )
 }
 
-export default MyApp
+export default App
