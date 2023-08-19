@@ -1,12 +1,13 @@
 module.exports = {
   env: {
-    siteTitle: 'Your Company',
-    siteDescription: 'Your company description.',
-    siteKeywords: 'your company keywords',
-    siteUrl: 'https://next-ozone.vercel.app',
+    siteTitle: 'Irina Korger',
+    siteDescription: 'Personal website',
+    siteKeywords: 'coach sales self-improvement',
+    siteUrl: 'irinakorger.com',
     siteImagePreviewUrl: '/images/preview.png',
-    twitterHandle: '@your_handle'
+    twitterHandle: '@irinakorger'
   },
+
   webpack: (config) => {
     let modularizeImports = null;
     config.module.rules.some((rule) =>

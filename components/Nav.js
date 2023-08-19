@@ -5,11 +5,10 @@ import NavRightButton from './NavRightButton';
 
 
 const navigation = [
-  { name: 'About', href: '/about' },
-  { name: 'FAQ', href: '/faq' },
-  { name: 'Contact', href: '/contact' },
-  { name: 'Pricing', href: '/pricing' },
-  { name: 'Login', href: '/login' },
+  { name: 'обо мне', href: '/about' },
+  { name: 'ча-во', href: '/faq' },
+  { name: 'связаться', href: '/contact' },
+  { name: 'цены', href: '/pricing' },
 ];
 
 function Nav() {
@@ -21,12 +20,12 @@ function Nav() {
             <div className="relative flex items-center justify-between h-16 sm:h-20">
               <Link className="flex items-center" href="/">
                   <img
-                    className="h-8 w-auto"
-                    src="/icon.svg"
+                    className="w-2/4"
+                    src="/logo-horizontal.svg"
                     alt="logo"
                   />
-                  <span className="font-semibold">{process.env.siteTitle}</span>
               </Link>
+
               <div>
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
@@ -39,12 +38,13 @@ function Nav() {
                     )}
                   </Disclosure.Button>
                 </div>
+
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex items-center space-x-4 text-sm">
                       {navigation.map((item) => (
-                        <Link
-                            className='text-gray-600 hover:text-palette-dark px-3 py-2 rounded-md font-medium'
+                        <Link className="text-gray-600 hover:underline whitespace-nowrap
+                                         px-3 py-2 rounded-md font-medium"
                           key={item.name}
                           href={item.href}
                         >
@@ -53,7 +53,7 @@ function Nav() {
                         </Link>
                       ))}
                       <NavRightButton
-                        text='Get Theme'
+                        text="войти"
                         layout="desktop"
                       />
                     </div>
@@ -87,12 +87,7 @@ function Nav() {
                     </Link>
                   </Disclosure.Button>
                 ))}
-                <div className="pt-6">
-                  <NavRightButton
-                    text='Get Theme'
-                    layout="mobile"
-                  />
-                </div>
+
               </div>
             </Disclosure.Panel>
           </Transition>

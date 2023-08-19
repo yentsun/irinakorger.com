@@ -8,15 +8,16 @@ class MyDocument extends Document {
     }
 
     render() {
-        return (
-            <Html lang="en">
-                <Head />
-                <body>
-                <Main />
-                <NextScript />
-                </body>
-            </Html>
-        )
+        return <Html lang="en">
+            <Head>
+                <link href="https://fonts.tildacdn.com/get/?fonts=427,429,433,435&amp;format=woff2"
+                      rel="stylesheet" type="text/css" media="all" />
+            </Head>
+            <body>
+            <Main />
+            <NextScript />
+            </body>
+        </Html>
     }
 }
 

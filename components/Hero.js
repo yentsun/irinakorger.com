@@ -9,10 +9,14 @@ function Hero() {
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
         <div className="max-w-xs lg:max-w-md space-y-10 w-5/6 mx-auto md:w-full text-center md:text-left">
           <h1 className="font-primary font-extrabold text-gray-900 text-3xl sm:text-4xl md:text-5xl md:leading-tight">
-            Your headline goes here. <span className="text-palette-primary">Catch their attention!</span>
+            Your headline goes here.
+              <span className="text-palette-primary">
+                  Catch their attention!
+              </span>
           </h1>
           <p className="font-secondary text-gray-500 text-base md:text-lg lg:text-xl">
-            Veniam anim labore cupidatat nostrud est ex sunt veniam occaecat consequat ipsum. Do enim magna amet cupidatat fugiat sint tempor.
+            Veniam anim labore cupidatat nostrud est ex sunt veniam occaecat consequat ipsum.
+            Do enim magna amet cupidatat fugiat sint tempor.
           </p>
           <div className="flex space-x-4">
             <PrimaryButton

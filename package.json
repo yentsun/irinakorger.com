@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.0.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
