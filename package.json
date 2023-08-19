@@ -1,44 +1,29 @@
 {
   "name": "irinakorger.com",
   "version": "0.1.0",
-  "homepage": "https://yentsun.github.io/irinakorger.com",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.5",
+    "framer-motion": "^4.1.8",
+    "next": "^13.4.18",
+    "next-pwa": "^5.0.5",
+    "postcss": "^8.1.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "echo irinakorger.com > ./build/CNAME && gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "react-intersection-observer": "^8.31.1",
+    "tailwindcss": "^3.3.3"
   }
 }
