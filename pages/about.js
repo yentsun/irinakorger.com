@@ -4,7 +4,7 @@ import PageTitle from '../components/PageTitle';
 
 export default function AboutPage() {
 
-    const pageHeader = `About | ${process.env.siteTitle}`
+    const pageHeader = ` | ${process.env.siteTitle}`
 
     return <div className="container mx-auto py-6 sm:py-12">
 
