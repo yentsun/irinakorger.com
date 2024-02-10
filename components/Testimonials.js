@@ -1,54 +1,56 @@
-import SectionTitle from './SectionTitle'
-import Testimonial from './Testimonial'
+import SectionTitle from './SectionTitle';
+import Testimonial from './Testimonial';
+
 
 const DATA = [
-  {
-    name: "Alice Doe",
-    jobTitle: "CEO, Acme",
-    image: "/images/testimonial-image-1.jpeg",
-    altTag: 'testimonial-1',
-    review: `Ex ad excepteur non sint velit commodo. Culpa velit tempor id do qui. Deserunt commodo tempor mollit eu veniam mollit unt enim.`,
-  },
-  {
-    name: "Bill Doe",
-    jobTitle: "CTO, Bezels",
-    image: "/images/testimonial-image-2.jpeg",
-    altTag: 'testimonial-2',
-    review: "Lorem in ipsum reprehenderit officia laborum do. Laborum voluptate adipisicing officia excepteur.",
-  },
-  {
-    name: "Clare Doe",
-    jobTitle: "SVP, Coala",
-    image: "/images/testimonial-image-3.jpeg",
-    altTag: 'testimonial-3',
-    review: `Duis nulla esse nisi esse incididunt ipsum tempor velit ipsum ex elit. Adipisicing ea labore consectetur eiusmod occaecat do.`,
-  }
+    {
+        name: "Диана Трофимова",
+        jobTitle: "бьюти-блоггер, 32 года",
+        image: "/images/testimonial-image-1.jpeg",
+        altTag: 'testimonial-1',
+        review: `Ирина помогла создать  страницу в Facebook и заметки в Twitter с 
+                 интересным контентом, связанным с моей тематикой`,
+    },
+    {
+        name: "Милана Лаврентьева",
+        jobTitle: "специалист по маркетингу, 25 лет",
+        image: "/images/testimonial-image-2.png",
+        altTag: 'testimonial-2',
+        review: `Мы начали с привлечения клиентов через различные каналы маркетинга,
+                 такие как контекстная реклама, SEO, соцсети и email-рассылки.`
+    },
+    {
+        name: "Копылова Татьяна",
+        jobTitle: "ИП, Coala",
+        image: "/images/testimonial-image-3.png",
+        altTag: 'testimonial-3',
+        review: `Что мне нравится в Ирине, так это то, что она не только профессионал, но и веселая. 
+                 Шутит, использует забавные картинки и видео 😊`,
+    }
 ]
 
 function Testimonials() {
-  return (
-    <div className="pt-12 pb-6 sm:pt-16 sm:pb-12">
-      <div className="w-full px-2 max-w-6xl mx-auto">
-        <SectionTitle 
-          text="Here's what our customers are saying"
-        />
-        <div className="flex flex-col items-center sm:flex-row sm:justify-around space-y-6 sm:space-y-0 pt-12">
-          {
-            DATA.map(item => (
-              <Testimonial
-                key={item.name}
-                name={item.name}
-                jobTitle={item.jobTitle}
-                image={item.image}
-                altTag={item.altTag}
-                review={item.review}
-              />
-            ))
-          }
+    return <div className="pt-12 pb-6 sm:pt-16 sm:pb-12">
+        <div className="w-full px-2 max-w-6xl mx-auto">
+            <SectionTitle
+                text="Что обо мне говорят"
+            />
+            <div className="flex flex-col items-center sm:flex-row sm:justify-around space-y-6 sm:space-y-0 pt-12">
+                {
+                    DATA.map(item => (
+                        <Testimonial
+                            key={item.name}
+                            name={item.name}
+                            jobTitle={item.jobTitle}
+                            image={item.image}
+                            altTag={item.altTag}
+                            review={item.review}
+                        />
+                    ))
+                }
+            </div>
         </div>
-      </div>
     </div>
-  )
 }
 
 export default Testimonials

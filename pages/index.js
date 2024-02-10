@@ -14,19 +14,18 @@ export default function IndexPage() {
         <Hero />
 
         <div className="relative mt-32">
+
             <div className="absolute inset-0 h-full w-full overflow-hidden mx-auto">
-                <div className="w-4/5 h-full mx-auto rounded-full bg-gray-50 transform scale-x-150"></div>
+                <div className="w-4/5 h-full mx-auto rounded-full bg-gray-50 transform scale-x-150" />
             </div>
-            {/* core services */}
+
             <Services />
-            {/* benefits */}
+
             <Benefits />
         </div>
 
-        {/* testimonials */}
         <Testimonials />
 
-        {/*  features */}
         <Features />
 
         {/* final call to action */}
